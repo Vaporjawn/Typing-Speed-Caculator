@@ -8,7 +8,7 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #1E0555;
+  background-color: Deepskyblue;
 }
 
 body, .quote-input {
@@ -27,7 +27,7 @@ body, .quote-input {
   position: absolute;
   top: 2rem;
   font-size: 3rem;
-  color: #F0DB4F;
+  color: orangered;
   font-weight: bold;
 }
 
@@ -55,10 +55,12 @@ body, .quote-input {
 }
 
 .correct {
-  color: green;
+  color: greenyellow;
 }
 
 .incorrect {
-  color: red;
-  text-decoration: underline;
+  color: tomato;
+  text-decoration: line-through;
+  text-decoration-style: solid;
+  font-weight: bold;
 }
